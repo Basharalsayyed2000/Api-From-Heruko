@@ -5,7 +5,7 @@ fetch('https://bash20211017.herokuapp.com/')
 
             var x = document.createElement('li');
             x.className = "list-group-item";
-            x.innerHTML = element.username;
+            x.innerHTML = element.username +" and His Age is "+element.age +"Years";
             document.getElementById('id1').appendChild(x);
 
 
